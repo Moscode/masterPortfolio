@@ -32,13 +32,6 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-    /* Your Social Media Link */
-    github: "https://github.com/Moscode",
-    linkedin: "https://www.linkedin.com/in/odunoshomoses/",
-    gmail: "odunoshomoses@gmail.com",
-    twitter: "https://twitter.com/moscode_sceptre",
-  },
-  {
     name: "Github",
     link: "https://github.com/Moscode",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
@@ -67,6 +60,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express & Flask",
+      ],
       softwareSkills: [
         {
           skillName: "HTML5",
@@ -131,10 +131,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Have Fundamental knowledge working with Netlify and Vercel cloud platforms",
+        "⚡ Hosting and maintaining websites with Netlify",
+        "⚡ Ability to debug or troubleshoot while deploying on netlify or Vercel",
       ],
       softwareSkills: [
         {
@@ -393,7 +392,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "moscode_profile.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
