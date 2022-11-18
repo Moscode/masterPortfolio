@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Odunosho Moses Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "I'm an experienced software engineer with a keen interest in solving technical problems and building sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/Moscode/pair-programming-platform",
   githubProfile: "https://github.com/Moscode",
 };
 
