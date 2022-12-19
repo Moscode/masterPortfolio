@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I'm an experienced software engineer with a keen interest in solving technical problems and building sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://docs.google.com/document/d/14c_15gr4ZtlSyDgvG9CqquFRFQ9aSxzthyb2bik1Hhs/edit?usp=sharing",
   portfolio_repository: "https://github.com/Moscode/pair-programming-platform",
   githubProfile: "https://github.com/Moscode",
 };
@@ -63,9 +63,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using React, React-Redux, Tailwind, and Bootstrap",
+        "⚡ Creating application backend in Node and Express",
       ],
       softwareSkills: [
         {
@@ -281,13 +280,13 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have interned as a Back-end Engineer and I am currently working with a startup as a Front-end Engineer. I have also volunteered as an ambassador with one of the top edtech companies in my country. I love sharing knowledge no matter how little it is.",
+    "I have interned as a Back-End Engineer and I am currently working with a startup as a Front-End Engineer. I have also volunteered as an ambassador with one of the top edtech companies in my country. I love sharing knowledge no matter how little it is.",
   header_image_path: "experience.svg",
   sections: [
-    {
+    /*{
       title: "Work",
       experiences: [
-        /*{
+        {
           title: "Associate AI Engineer",
           company: "Legato Health Technology",
           company_url: "https://legatohealthtech.com/",
@@ -297,9 +296,9 @@ const experience = {
           description:
             "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
           color: "#0879bf",
-        },*/
+        },
       ],
-    },
+    },*/
     {
       title: "Internships",
       experiences: [
@@ -339,53 +338,8 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create work on Frontend and BAckend of Web Aplication using MERN Stack",
+    "My projects make use of variety of latest technology tools. My best experience is to create work on Frontend and Backend of Web Application using MERN Stack",
   avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Pair Programming",
-      description:
-        "A pairprogramming platform where developers meet and create an appointment to connect with other developer to help them solve technical problems",
-      url: "https://pairprogramming.netlify.app",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "subscription page",
-      description: "A subscription page built with Sass",
-      url: "https://subscription-page-with-sass.netlify.app",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "A contact list management app",
-      description:
-        "A contact list management app, communicating with external api and has searching feature",
-      url: "https://contact-list-management-app.netlify.app",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "POKEMON GAME SERIES",
-      description:
-        "A pokemon hall where different pokemons and their powers/abilities can be known",
-      url: "https://pokemonseries.netlify.app",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Productivity App with ReactJS",
-      description: "For keeping tasks to do and tracking them",
-      url: "https://moscode-todoapp.netlify.app/",
-    },
-  ],
 };
 
 // Contact Page
@@ -394,7 +348,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "moscode_profile.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on both twitter and linkedin social media. You can message me, I will reply within 48 hours. I can help you with both Frontend and Backend Development (React, Node, Express, and MongoDB)",
   },
   /*blogSection: {
     title: "Blogs",
@@ -405,8 +359,7 @@ const contactPageData = {
   },*/
   addressSection: {
     title: "Address",
-    subtitle:
-      "I am available on both twitter and linkedin social media. You can message me, I will reply within 48 hours. I can help you with either React and Opensource Development.",
+    subtitle: "Lago, Nigeria.",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
@@ -426,7 +379,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
